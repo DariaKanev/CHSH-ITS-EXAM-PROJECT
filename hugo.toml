@@ -1,6 +1,6 @@
 baseURL = 'https://dariakanev.github.io/CHSH-ITS-EXAM-PROJECT/'
 languageCode = 'en-us'
-title = 'My CHSH Project'
+title = 'Our CHSH Project'
 theme = 'lightbi-hugo'
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -82,10 +82,10 @@ pagination = "10"
     url = "/tags/blog/"
     weight = 3
 
-[[menu.main]]
-    name = "Collections"
-    url = "/collections/"
-    weight = 4
+# [[menu.main]]
+#     name = "Collections"
+#     url = "/collections/"
+#     weight = 4
 
 [[menu.main]]
     name = "About"
