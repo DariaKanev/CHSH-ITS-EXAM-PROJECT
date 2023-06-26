@@ -39,7 +39,7 @@ pagination = "10"
 
 [Author]
   name = "Daria Kaneva, Fidan Hajili, Elizaveta Britvenkova"
-  website = "https://binovarghese.com/"
+  #website = "https://binovarghese.com/"
   #email = "sample@gmail.com"
   #facebook = "username"
   #instagram = "username"
