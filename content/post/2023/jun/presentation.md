@@ -1,6 +1,5 @@
 ---
 title: General Presentation
-#date: 23-06-28
 Description  : "Our project"
 ---
 
