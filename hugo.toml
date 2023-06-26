@@ -38,15 +38,15 @@ pagination = "10"
   filename = "sitemap.xml"
 
 [Author]
-  name = "Bino Kochumol Varghese"
+  name = "Daria Kaneva, Fidan Hajili, Elizaveta Britvenkova"
   website = "https://binovarghese.com/"
-  email = "sample@gmail.com"
-  facebook = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  twitter = "username"
-  linkedin = "username"
-  github = "username"
+  #email = "sample@gmail.com"
+  #facebook = "username"
+  #instagram = "username"
+  #youtube = "user/username" # or channel/channelname
+  #twitter = "username"
+  #linkedin = "username"
+  #github = "username"
   #gitlab = "username"
   #bitbucket = "username"
   #reddit = "username"
@@ -72,15 +72,15 @@ pagination = "10"
     url = "/"
     weight = 1
 
-[[menu.main]]
-    name = "Notes"
-    url = "/notes/"
-    weight = 2
+# [[menu.main]]
+#     name = "Notes"
+#     url = "/notes/"
+#     weight = 2
 
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/blog/"
-    weight = 3
+# [[menu.main]]
+#     name = "Tags"
+#     url = "/tags/blog/"
+#     weight = 3
 
 # [[menu.main]]
 #     name = "Collections"
@@ -88,7 +88,7 @@ pagination = "10"
 #     weight = 4
 
 [[menu.main]]
-    name = "About"
+    name = "About us"
     url = "/about/"
     weight = 5
 
