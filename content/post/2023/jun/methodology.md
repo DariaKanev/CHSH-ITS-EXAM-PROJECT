@@ -1,7 +1,6 @@
 ---
 title: Methodology
-#date: 2023-06-25
-#image : "/images/img-1.jpg"
+date: 23-06-28
 Description  : "Our working process"
 ---
 
