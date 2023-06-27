@@ -5,6 +5,7 @@ Description  : "Our project"
 ---
 
 **Presentation of our project**
+
 *The course: Information Technology Skills*
 
 *The Master’s Program: Language, Society and Communication*
