@@ -1,6 +1,6 @@
 ---
 title: Methodology
-date: 2023-06-28
+date: 2023-06-23
 Description  : "Our working process"
 ---
 
@@ -22,21 +22,21 @@ We started with launching simple queries given to us as an example on [MusicBo S
 Since, during the course, we explored the data about music bands, we decided to check if there is information about other types of musical organisations, more specifically orchestras. To do that we used [FRED](https://arco.istc.cnr.it/txt-amr-fred/) because this tool was originally used to create the MusicBo KG. Thanks to that we managed to discover the resource identifier for orchestras. 
 Then we launched the query to discover what kind of properties can be found with the resource identifier for orchestras as a subject or as an object. One of the first results we retrieved was the definition of an orchestra which we later used to create a text field in our [data story](https://melody-data.github.io/stories/published_stories/story_1687782595.724613.html) based on [MusicBo SPARQL endpoint](https://polifonia.disi.unibo.it/musicbo/sparql). 
 
-![Definition](https://github.com/DariaKanev/CHSH-ITS-EXAM-PROJECT/blob/main/content/post/2023/jun/images/img-1.jpg)
+![Definition](https://github.com/DariaKanev/CHSH-ITS-EXAM-PROJECT/blob/main/content/post/2023/jun/images/img-1.jpg?raw=true)
 
 Here we additionally used the already existing data story about the [MusicBo KG on Melody](https://projects.dharc.unibo.it/melody/musicbo/music_in_bologna_textual_corpus_overview) to see how different elements are encoded when MusicBo SPARQL endpoint is used. 
 Then we decided to count how many orchestras are mentioned in the MusicBo KG and presented it as a counter in our data story. 
 
 While exploring the list of properties used with the resource for orchestra we also discovered that there are orchestras mentioned in the connection with various cities so we organised the information about how many orchestras are connected with each of the cities. 
 
-![Query for orchetras in connection with cities](https://github.com/DariaKanev/CHSH-ITS-EXAM-PROJECT/blob/main/content/post/2023/jun/images/img-2.jpg)
+![Query for orchetras in connection with cities](https://github.com/DariaKanev/CHSH-ITS-EXAM-PROJECT/blob/main/content/post/2023/jun/images/img-2.jpg?raw=true)
 
 *Challenges* 
 
 While searching for orchestras connected with cities, we discovered that San Petronio, which is the name of the main basilica in Bologna is marked as a city. That means that the counter for orchestras mentioned with Bologna should have showed different number. Such a result must have been showed due to automatic extraction of the MusicBo KG.
 Another challenge that we faced related to the fact that querying the KG returned only three results of orchestras names. What’s more two of them definitely referred to the same orchestra name but with different spelling. 
 
-![Query for orchetras mentioned with names](https://github.com/DariaKanev/CHSH-ITS-EXAM-PROJECT/blob/main/content/post/2023/jun/images/img-3.jpg)
+![Query for orchetras mentioned with names](https://github.com/DariaKanev/CHSH-ITS-EXAM-PROJECT/blob/main/content/post/2023/jun/images/img-3.jpg?raw=true)
 
 We hypothesised that there must be more in the original corpus. In this regard we addressed the MusicBo corpus. During the investigation we encountered several problems with the search related to orchestras.
 
@@ -46,7 +46,7 @@ In our next attempt, we unintentionally selected the term "orchestra" from a dro
 
 Secondly, another problem we encountered was the inconsistency between the selected language (English) and the language of the obtained sentences. Despite setting the language to English, the first three sentences were in Italian. However, our research focused on investigating sentences exclusively in English.
 
-![Search in Polifonia Corpus](https://github.com/DariaKanev/CHSH-ITS-EXAM-PROJECT/blob/main/content/post/2023/jun/images/img-4.jpg)
+![Search in Polifonia Corpus](https://github.com/DariaKanev/CHSH-ITS-EXAM-PROJECT/blob/main/content/post/2023/jun/images/img-4.jpg?raw=true)
 
 Finally, when attempting to view all 1383 sentences, we encountered another problem. Although we clicked on the "More+" option to display more sentences, only 430 of them were displayed. We attempted to increase the number of displayed sentences by adjusting the "N line", even setting it to 1000+, but this did not resolve the issue. To address this problem, we attempted to incrementally modify the query by clicking “+” and adding digits one by one, but this approach did not solve the problem.
 
