@@ -33,9 +33,9 @@ While exploring the list of properties used with the resource for orchestra we a
 
 *Challenges* 
 
-One of the first challenges was connected with the fact that to display a graphic element on Melody, some variables must be named in a particukar way, which are ?count for counts and ?label for graphs. Queries with different names for these variables return results on MusicBo endpoint, but do not visualise on Melody. 
+One of the first challenges was connected with the fact that to display a graphic element on Melody, some variables must be named in a particular way, which are ?count for counts and ?label for graphs. Queries with different names for these variables return results on MusicBo endpoint, but do not visualise on Melody. 
 
-While searching for orchestras connected with cities, we discovered that San Petronio, which is the name of the main basilica in Bologna is marked as a city. That means that the counter for orchestras mentioned with Bologna should have showed different number. Such a result must have been showed due to automatic extraction of the MusicBo KG.
+While searching for orchestras connected with cities, we discovered that San Petronio, which is the name of the main basilica in Bologna is marked as a city. That means that the counter for orchestras mentioned with Bologna should have showed a different number. Such a result must have been showed due to automatic extraction of the MusicBo KG.
 Another challenge that we faced related to the fact that querying the KG returned only three results of orchestras names. What’s more two of them definitely referred to the same orchestra name but with different spelling. 
 
 ![Query for orchetras mentioned with names](https://github.com/DariaKanev/CHSH-ITS-EXAM-PROJECT/blob/main/content/post/2023/jun/images/img-3.jpg?raw=true)
@@ -44,7 +44,7 @@ We hypothesised that there must be more in the original corpus. In this regard w
 
 Firstly, we typed "orchestra" in the query field, and we selected the type "lemma," the module "Musicbo," and the language “English” in the available search options. But we failed in our first attempt, we were shown the message "The lemma orchestra is associated with 0 sentences." To solve this problem, we made several additional attempts, including changing the type from “lemma” to “keyword” and “entity”. However, all these efforts resulted in either 0 or 1.
 
-In our next attempt, we unintentionally selected the term "orchestra" from a drop-down box that appeared for selection, and we clicked “RUN”, we received a different result. The message displayed was "The lemma orchestra is associated with 1383 sentences." Considering all of this, we stated that the selection from the drop-down box was necessary for obtaining results. However, when we checked again the following day this bug had been fixed.
+In our next attempt, we unintentionally selected the term "orchestra" from a drop-down box that appeared for selection, we clicked “RUN”, and received a different result. The message displayed was "The lemma orchestra is associated with 1383 sentences." Considering all of this, we stated that the selection from the drop-down box was necessary for obtaining results. However, when we checked again the following day this bug had been fixed.
 
 Secondly, another problem we encountered was the inconsistency between the selected language (English) and the language of the obtained sentences. Despite setting the language to English, the first three sentences were in Italian. However, our research focused on investigating sentences exclusively in English.
 
@@ -98,7 +98,7 @@ Some of these prominent musicians were mentioned on Wikidata in connection with 
 
 *Challenges*
 
-When we launched the query for the map, we realized that very few orchestras in Europe are listed with their exact location unlike surprisingly the orchestras in Mexico. For this reason, we decided to create another query for calculating the total number of orchestras in European countries which had returned bigger numbers.
+When we launched the query for the map, we realized that very few orchestras in Europe are listed with their exact location unlike surprisingly the orchestras in Mexico. For this reason, we decided to create another query for calculating the total number of orchestras in European countries which returned bigger numbers.
 
 Another challenge was faced when we added an action to the data retrieved using the operator OPTIONAL, because the button that initiated the action query appeared even in case when the field for the leader hadn’t been filled with any information. 
 
@@ -108,7 +108,7 @@ The third stage of our group project focused on creating a website to present ou
 
 *Challenges*
 
-The first challenge that we encountered was due to the fact that GitHub modified the procedure of creating a website. Unfortunately, the tutorial that had been published only described the previous procedure. That is why we contacted the support and they shared with a link to the new instructions. However, this instructions were much more complicated in terms of adding the theme to a website because they required installation of several software applications on our personal PCs. Another challenge had to do with Jekyll software. Our group decided to appeal to Hugo, because we couldn’t install Jekyll on neither of our PCs. As Hugo had the detailed instruction on how to apply themes to a website, we decided to use Hugo instead.
+The first challenge that we encountered was due to the fact that GitHub modified the procedure of creating a website. Unfortunately, the tutorial that had been published only described the previous procedure. That is why we contacted the support and they shared with a link to the new instructions. However, this instructions were much more complicated in terms of adding the theme to a website because they required installation of several software applications on our personal PCs. Another challenge had to do with Jekyll software. Our group decided to appeal to Hugo, because we couldn’t install Jekyll on either of our PCs. As Hugo had detailed instructions on how to apply themes to a website, we decided to use Hugo instead.
 
 While modyfying our content we faced several challenges as well. Since we did not work with HTML directly but worked with markdowm, we could not insert graphic elements from Melody via embedding, but used pictures instead.
 
