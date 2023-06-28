@@ -6,7 +6,7 @@ Description  : "The article about orchestras based on stories and sentences"
 
 **Orchestras on MysicBo ans Wikidata**
 
-According to MusicBo, an orchestra is a musical organization consisting of a group of instrumentalists including string players. Several orchestras are associated with cities such as Moscow, Bologna, San Lorenzo, Vienna, London, San Marco, etc. Among the countries with the largest number of orchestras, England ranks first, Hungary ranks second, and France ranks third. Italy takes the 4th place on the list.
+According to MusicBo, an orchestra is a musical organization consisting of a group of instrumentalists including string players. Several orchestras are associated with cities such as Moscow, Bologna, San Lorenzo, Vienna, London, San Marco, etc. Among the countries with the largest number of orchestras, England ranks first, Hungary ranks second, and France ranks third. Italy takes the 4th place on the list. 
 
 ![Bar chart](https://github.com/DariaKanev/CHSH-ITS-EXAM-PROJECT/blob/main/content/post/2023/jun/images/img-6.jpg?raw=true)
 
