@@ -110,5 +110,5 @@ The third stage of our group project focused on creating a website to present ou
 
 The first challenge that we encountered was due to the fact that GitHub modified the procedure of creating a website. Unfortunately, the tutorial that had been published only described the previous procedure. That is why we contacted the support and they shared with a link to the new instructions. However, these instructions were much more complicated in terms of adding the theme to a website because they required installation of several software applications on our personal PCs. Another challenge had to do with Jekyll software. Our group decided to appeal to Hugo, because we couldn’t install Jekyll on either of our PCs. As Hugo had detailed instructions on how to apply themes to a website, we decided to use Hugo instead.
 
-While modyfying our content we faced several challenges as well. Since we did not work with HTML directly but worked with markdowm, we could not insert graphic elements from Melody via embedding, but used pictures instead.
+While modifying our content we faced several challenges as well. Since we did not work with HTML directly but worked with markdown, we could not insert graphic elements from Melody via embedding, but used pictures instead.
 
