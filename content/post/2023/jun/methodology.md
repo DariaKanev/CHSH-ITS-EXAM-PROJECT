@@ -33,6 +33,8 @@ While exploring the list of properties used with the resource for orchestra we a
 
 *Challenges* 
 
+One of the first challenges was connected with the fact that to display a graphic element on Melody, some variables must be named in a particukar way, which are ?count for counts and ?label for graphs. Queries with different names for these variables return results on MusicBo endpoint, but do not visualise on Melody. 
+
 While searching for orchestras connected with cities, we discovered that San Petronio, which is the name of the main basilica in Bologna is marked as a city. That means that the counter for orchestras mentioned with Bologna should have showed different number. Such a result must have been showed due to automatic extraction of the MusicBo KG.
 Another challenge that we faced related to the fact that querying the KG returned only three results of orchestras names. What’s more two of them definitely referred to the same orchestra name but with different spelling. 
 
