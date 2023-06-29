@@ -13,9 +13,9 @@ The project that we have worked on aims to explore and present the data extracte
 The first stage of exploration and extraction of data was based on MusicBo Knowledge Graph.
 We also used [MusicBo corpus](https://polifonia.disi.unibo.it/corpus/) (part of the Polifonia Corpus) since MusicBO Knowledge Graph is automatically extracted from natural language texts by applying a custom text-to-Knowledge Graph (text2KG) process to the MusicBO corpus documents.
 
-Prior to the exploration we studied the documentation about the MusicBo KG (Knowledge Graph) on [Github](https://github.com/polifonia-project/musicbo-knowledge-graph). This KG provides its users with the information about the role of Bologna in the European musical landscape.
+Prior to the exploration we studied the documentation about the MusicBo KG (Knowledge Graph) on [Github](https://github.com/polifonia-project/musicbo-knowledge-graph). This KG provides its users with information about the role of Bologna in the European musical landscape.
 
-MusicBO Knowledge Graph stores information about the role of music in the city of Bologna from a historical and social perspective. It conveys knowledge about music performances in Bologna and encounters between musicians, composers, critics and historians who passed through Bologna.
+MusicBO Knowledge Graph stores information about the role of music in the city of Bologna from a historical and social perspective. It conveys knowledge about music performances in Bologna and encounters between musicians, composers, critics, and historians who passed through Bologna.
 
 We started with launching simple queries given to us as an example on [MusicBo SPARQL endpoint](https://polifonia.disi.unibo.it/musicbo/sparql) to see to what extend MusicBo KG is different from other KGs that we had used during the course (ArCo, DBpedia, Wikidata) and to define the vocabulary that we can use to query this particular KG. 
 
@@ -33,14 +33,14 @@ While exploring the list of properties used with the resource for orchestra we a
 
 *Challenges* 
 
-One of the first challenges was connected with the fact that to display a graphic element on Melody, some variables must be named in a particular way, which are ?count for counts and ?label for graphs. Queries with different names for these variables return results on MusicBo endpoint, but do not visualise on Melody. 
+One of the first challenges was connected with the fact that to display a graphic element on Melody, some variables must be named in a particular way, which are ?count for counts and ?label for graphs. Queries with different names for these variables return results on MusicBo endpoint, but do not visualize on Melody. 
 
-While searching for orchestras connected with cities, we discovered that San Petronio, which is the name of the main basilica in Bologna is marked as a city. That means that the counter for orchestras mentioned with Bologna should have showed a different number. Such a result must have been showed due to automatic extraction of the MusicBo KG.
+While searching for orchestras connected with cities, we discovered that San Petronio, which is the name of the main basilica in Bologna is marked as a city. That means that the counter for orchestras mentioned with Bologna should have showed a different number. Such a result must have been shown due to automatic extraction of the MusicBo KG.
 Another challenge that we faced related to the fact that querying the KG returned only three results of orchestras names. What’s more two of them definitely referred to the same orchestra name but with different spelling. 
 
 ![Query for orchetras mentioned with names](https://github.com/DariaKanev/CHSH-ITS-EXAM-PROJECT/blob/main/content/post/2023/jun/images/img-3.jpg?raw=true)
 
-We hypothesised that there must be more in the original corpus. In this regard we addressed the MusicBo corpus. During the investigation we encountered several problems with the search related to orchestras.
+We hypothesized that there must be more in the original corpus. In this regard we addressed the MusicBo corpus. During the investigation we encountered several problems with the search related to orchestras.
 
 Firstly, we typed "orchestra" in the query field, and we selected the type "lemma," the module "Musicbo," and the language “English” in the available search options. But we failed in our first attempt, we were shown the message "The lemma orchestra is associated with 0 sentences." To solve this problem, we made several additional attempts, including changing the type from “lemma” to “keyword” and “entity”. However, all these efforts resulted in either 0 or 1.
 
