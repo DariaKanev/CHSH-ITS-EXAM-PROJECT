@@ -86,7 +86,7 @@ Last but not least, while querying the KG, we attempted to establish a connectio
 
 *Stage 2*
 
-The second stage of exploration and extraction of data was based on Wikidata Knowledge Graph. We decided it would be relevant to complete the data about orchestras extracted from another KG. We searched on [Wikidata service](https://query.wikidata.org/) for resource identifier for orchestra and then created a query to see how many orchestras there are in Italy. We published this information as a counter in our [second data story](https://melody-data.github.io/stories/published_stories/story_1687783155.447632.html) which used [Wikidata endpoint](https://query.wikidata.org/sparql).
+The second stage of exploration and extraction of data was based on Wikidata Knowledge Graph. We decided it would be relevant to complete the data about orchestras extracted from another KG. We searched on [Wikidata service](https://query.wikidata.org/) for resource identifier for orchestra and then created a query to see how many orchestras there are in Italy. We published this information as a counter in our [second data story](https://melody-data.github.io/stories/published_stories/story_1687783155.447632.html) which used [Wikidata endpoint](https://query.wikidata.org/).
 
 Then we started to explore what kind of data can be found on Wikidata about orchestras from Italy and decided to organise them in a table. However, the information we wanted to include in our table is not presented for every orchestra which is why we used the operator OPTIONAL in our query.
 
